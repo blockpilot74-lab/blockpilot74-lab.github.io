@@ -35,11 +35,6 @@
       text-decoration: none;
     }
 
-
-    /* =========================================================
-       HEADER
-       ========================================================= */
-
     header {
       padding: 20px 8%;
       display: flex;
@@ -62,11 +57,6 @@
       color: #5ee38a;
       font-size: 14px;
     }
-
-
-    /* =========================================================
-       HERO
-       ========================================================= */
 
     .hero {
       text-align: center;
@@ -104,11 +94,6 @@
       font-size: 19px;
     }
 
-
-    /* =========================================================
-       BOTONES
-       ========================================================= */
-
     .buttons {
       margin-top: 35px;
     }
@@ -138,21 +123,6 @@
       background: transparent;
     }
 
-    .disabled {
-      background: #33465a;
-      color: #9eacba;
-      cursor: default;
-    }
-
-    .disabled:hover {
-      transform: none;
-    }
-
-
-    /* =========================================================
-       SECCIONES
-       ========================================================= */
-
     section {
       max-width: 1100px;
       margin: auto;
@@ -171,11 +141,6 @@
       text-align: center;
       color: #aebdce;
     }
-
-
-    /* =========================================================
-       TARJETAS
-       ========================================================= */
 
     .grid {
       display: grid;
@@ -200,11 +165,6 @@
       color: #b8c5d6;
     }
 
-
-    /* =========================================================
-       CAJAS GRANDES
-       ========================================================= */
-
     .notice {
       background: #0c2135;
       border: 1px solid #1d78b7;
@@ -224,11 +184,6 @@
       color: #b8c5d6;
     }
 
-
-    /* =========================================================
-       CORREO
-       ========================================================= */
-
     .email {
       display: inline-block;
       margin-top: 18px;
@@ -236,11 +191,6 @@
       font-size: 19px;
       font-weight: bold;
     }
-
-
-    /* =========================================================
-       LEGAL
-       ========================================================= */
 
     .legal-box {
       background: #0d1b2d;
@@ -260,10 +210,11 @@
       margin-bottom: 10px;
     }
 
-
-    /* =========================================================
-       FOOTER
-       ========================================================= */
+    .version {
+      margin-top: 12px;
+      color: #8ea0b5;
+      font-size: 14px;
+    }
 
     footer {
       text-align: center;
@@ -280,11 +231,6 @@
     footer p {
       margin: 5px 0;
     }
-
-
-    /* =========================================================
-       TELÉFONO
-       ========================================================= */
 
     @media (max-width: 650px) {
 
@@ -317,19 +263,12 @@
         max-width: 300px;
         margin: 10px auto;
       }
-
     }
 
   </style>
 </head>
 
-
 <body>
-
-
-<!-- =========================================================
-     CABECERA
-     ========================================================= -->
 
 <header>
 
@@ -342,12 +281,6 @@
   </div>
 
 </header>
-
-
-
-<!-- =========================================================
-     PRESENTACIÓN
-     ========================================================= -->
 
 <div class="hero">
 
@@ -369,7 +302,7 @@
   <div class="buttons">
 
     <a class="btn primary"
-       href="#descargar">
+       href="https://github.com/blockpilot74-lab/blockpilot74-lab.github.io/releases/latest/download/app-debug.apk">
       Descargar BlockPilot
     </a>
 
@@ -382,12 +315,6 @@
 
 </div>
 
-
-
-<!-- =========================================================
-     FUNCIONES
-     ========================================================= -->
-
 <section id="funciones">
 
   <h2>
@@ -398,9 +325,7 @@
     Configura BlockPilot de acuerdo con tus preferencias.
   </p>
 
-
   <div class="grid">
-
 
     <div class="card">
 
@@ -415,8 +340,6 @@
 
     </div>
 
-
-
     <div class="card">
 
       <h3>
@@ -429,8 +352,6 @@
       </p>
 
     </div>
-
-
 
     <div class="card">
 
@@ -445,8 +366,6 @@
 
     </div>
 
-
-
     <div class="card">
 
       <h3>
@@ -459,8 +378,6 @@
       </p>
 
     </div>
-
-
 
     <div class="card">
 
@@ -475,8 +392,6 @@
 
     </div>
 
-
-
     <div class="card">
 
       <h3>
@@ -490,16 +405,9 @@
 
     </div>
 
-
   </div>
 
 </section>
-
-
-
-<!-- =========================================================
-     DESCARGA
-     ========================================================= -->
 
 <section id="descargar">
 
@@ -508,9 +416,8 @@
   </h2>
 
   <p class="section-description">
-    Descarga BlockPilot únicamente desde sus canales oficiales.
+    Descarga BlockPilot únicamente desde este sitio oficial.
   </p>
-
 
   <div class="notice">
 
@@ -519,31 +426,25 @@
     </h3>
 
     <p>
-      Estamos preparando la descarga directa desde
-      este nuevo sitio oficial.
+      Descarga la versión oficial más reciente de BlockPilot.
     </p>
 
     <div class="buttons">
 
-      <span class="btn disabled">
-        Descarga próximamente
-      </span>
+      <a class="btn primary"
+         href="https://github.com/blockpilot74-lab/blockpilot74-lab.github.io/releases/latest/download/app-debug.apk">
+        ⬇ Descargar APK
+      </a>
 
     </div>
 
-    <p>
-      La descarga oficial se habilitará aquí.
+    <p class="version">
+      Versión actual: v1.0.0 · Android
     </p>
 
   </div>
 
 </section>
-
-
-
-<!-- =========================================================
-     ACTUALIZACIONES
-     ========================================================= -->
 
 <section id="actualizaciones">
 
@@ -559,18 +460,21 @@
 
     <p>
       Las nuevas versiones, correcciones y mejoras
-      de BlockPilot se publicarán desde sus canales oficiales.
+      de BlockPilot se publicarán desde este sitio oficial.
     </p>
+
+    <div class="buttons">
+
+      <a class="btn secondary"
+         href="https://github.com/blockpilot74-lab/blockpilot74-lab.github.io/releases/latest">
+        Ver última versión
+      </a>
+
+    </div>
 
   </div>
 
 </section>
-
-
-
-<!-- =========================================================
-     SOPORTE
-     ========================================================= -->
 
 <section id="soporte">
 
@@ -581,7 +485,6 @@
   <p class="section-description">
     ¿Tienes alguna pregunta o necesitas ayuda con BlockPilot?
   </p>
-
 
   <div class="notice">
 
@@ -594,22 +497,16 @@
       correo oficial de soporte.
     </p>
 
-
     <a class="email"
        href="mailto:blockpilot74@gmail.com">
-
       blockpilot74@gmail.com
-
     </a>
-
 
     <div class="buttons">
 
       <a class="btn primary"
          href="mailto:blockpilot74@gmail.com?subject=Soporte%20BlockPilot">
-
         Contactar soporte
-
       </a>
 
     </div>
@@ -618,18 +515,11 @@
 
 </section>
 
-
-
-<!-- =========================================================
-     PRIVACIDAD
-     ========================================================= -->
-
 <section id="privacidad">
 
   <h2>
     Privacidad y condiciones
   </h2>
-
 
   <div class="legal-box">
 
@@ -653,8 +543,6 @@
     </p>
 
   </div>
-
-
 
   <div class="legal-box">
 
@@ -682,12 +570,6 @@
 
 </section>
 
-
-
-<!-- =========================================================
-     FOOTER
-     ========================================================= -->
-
 <footer>
 
   <p>
@@ -708,7 +590,6 @@
   </p>
 
 </footer>
-
 
 </body>
 </html>

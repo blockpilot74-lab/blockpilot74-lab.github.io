@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>BlockPilot | Sitio oficial</title>
+  <meta name="description" content="Sitio oficial de BlockPilot. Configura tus preferencias, filtros y mantén tu aplicación actualizada.">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #07111f;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 20px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #1d3048;
+      background: #091525;
+    }
+
+    .logo {
+      font-size: 26px;
+      font-weight: bold;
+      color: #42a5ff;
+    }
+
+    .status {
+      color: #5ee38a;
+      font-size: 14px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 90px 20px 70px;
+      background: linear-gradient(180deg, #0b1c31, #07111f);
+    }
+
+    .hero h1 {
+      font-size: 52px;
+      margin-bottom: 15px;
+    }
+
+    .hero h1 span {
+      color: #42a5ff;
+    }
+
+    .hero p {
+      max-width: 700px;
+      margin: auto;
+      color: #b8c5d6;
+      font-size: 19px;
+    }
+
+    .buttons {
+      margin-top: 35px;
+    }
+
+    .btn {
+      display: inline-block;
+      text-decoration: none;
+      padding: 14px 25px;
+      margin: 7px;
+      border-radius: 10px;
+      font-weight: bold;
+    }
+
+    .primary {
+      background: #168cff;
+      color: white;
+    }
+
+    .secondary {
+      border: 1px solid #40546d;
+      color: white;
+    }
+
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 65px 20px;
+    }
+
+    section h2 {
+      text-align: center;
+      font-size: 34px;
+      margin-bottom: 40px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #0d1b2d;
+      border: 1px solid #20334c;
+      padding: 25px;
+      border-radius: 15px;
+    }
+
+    .card h3 {
+      color: #58adff;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      color: #b8c5d6;
+    }
+
+    .notice {
+      background: #0c2135;
+      border: 1px solid #1d78b7;
+      padding: 25px;
+      border-radius: 15px;
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 35px 20px;
+      border-top: 1px solid #1d3048;
+      color: #8292a7;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 38px;
+      }
+
+      header {
+        padding: 18px 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">BlockPilot</div>
+  <div class="status">● Sitio oficial</div>
+</header>
+
+<div class="hero">
+  <h1>Control inteligente con <span>BlockPilot</span></h1>
+
+  <p>
+    Configura tus preferencias y filtros desde una interfaz sencilla.
+    BlockPilot está diseñado para ayudarte a administrar tus configuraciones
+    de forma rápida y organizada.
+  </p>
+
+  <div class="buttons">
+    <a class="btn primary" href="#funciones">Ver funciones</a>
+    <a class="btn secondary" href="#actualizaciones">Actualizaciones</a>
+  </div>
+</div>
+
+<section id="funciones">
+  <h2>Funciones de BlockPilot</h2>
+
+  <div class="grid">
+
+    <div class="card">
+      <h3>⚡ Respuesta rápida</h3>
+      <p>
+        Diseñado para trabajar de forma ágil con las preferencias
+        configuradas por el usuario.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>🎯 Filtros personalizados</h3>
+      <p>
+        Configura estaciones, horarios, duración y requisitos de pago
+        según tus preferencias.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>🔔 Alertas</h3>
+      <p>
+        Recibe avisos cuando BlockPilot complete acciones importantes.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>🛠 Configuración flexible</h3>
+      <p>
+        Ajusta las opciones de BlockPilot para adaptarlas a diferentes
+        necesidades y horarios.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<section id="actualizaciones">
+  <h2>Actualizaciones</h2>
+
+  <div class="notice">
+    <h3>BlockPilot se mantiene en desarrollo</h3>
+    <p>
+      Las nuevas versiones y mejoras oficiales se publicarán desde
+      los canales oficiales de BlockPilot.
+    </p>
+  </div>
+</section>
+
+<footer>
+  © 2026 BlockPilot · Sitio oficial
+</footer>
+
+</body>
+</html>

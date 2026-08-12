@@ -1,8 +1,8 @@
 {
-  "latestVersionCode": 7,
+  "latestVersionCode": 8,
   "latestVersionName": "1.0.2",
   "minimumVersionCode": 3,
-  "mandatory": false,
+  "mandatory": true,
   "apkUrl": "https://github.com/blockpilot74-lab/blockpilot74-lab.github.io/releases/download/v1.0.2/app-release.apk",
   "message": "Hay una nueva versión de BlockPilot disponible."
 }
